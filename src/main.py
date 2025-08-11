@@ -4,7 +4,7 @@ from file_based_functions import *
 import sys
 
 if len(sys.argv) > 1:
-    base_path = sys.argv[1]
+    base_path = f"/{sys.argv[1]}"
 else:
     base_path = "/"
 
